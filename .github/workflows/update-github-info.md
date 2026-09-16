@@ -18,6 +18,7 @@ network:
     - defaults
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     title-prefix: "[github-info] "
@@ -38,7 +39,8 @@ Use `web-fetch` to read both:
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
-Review the latest relevant items from those pages and update `site/content/github-info.md` with concise, useful information for developers. Preserve the existing document structure and style where possible, avoid duplicate items, and include source links for new content.
+Review the latest relevant items from those pages and update `site/content/github-info.md` with concise, useful information for developers. Add relevant Awesome Copilot workflows to the sources alongside GitHub Blog and Changelog updates. Preserve the existing document structure and style where possible, avoid duplicate items, and include source links for new content.
 
 After editing the file, inspect the diff for accuracy, source attribution, and unintended changes. Use the `create-pull-request` safe output to open one draft pull request for Mona to review. The pull request title and body should briefly summarize the updates and identify the Blog or Changelog sources used. Do not write directly to the default branch.
